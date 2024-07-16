@@ -2,7 +2,7 @@
   "name": "spectral-void",
   "displayName": "Spectral Void",
   "description": "A theme insipired by nordic colors, winters and black metal.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "SpectralVoid",
   "engines": {
     "vscode": "^1.91.0"
@@ -25,9 +25,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Spectral Void Black Metal Theme",
+        "label": "Spectral Void (Dark 1)",
         "uiTheme": "vs-dark",
-        "path": "./themes/spectral-void-1-color-theme.json"
+        "path": "./themes/spectral-void-2-color-theme.json"
       }
     ]
   }
