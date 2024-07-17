@@ -62,27 +62,21 @@
 
 		// tabs
 		"tab.border":"#75757549",
-		"tab.activeBorder":"#ffffff",
-
+		//"tab.activeBorder":"#ffffff",
 		"tab.activeBackground":"#1d1d1f",
 		"tab.activeForeground":"#adb5bd",
-
 		"tab.inactiveBackground": "#242426",
 		"tab.inactiveForeground":"#adb5bdaa",
-
 		"tab.hoverBackground":"#1d1d1f",
 		"tab.hoverForeground":"#ffffff",
-
 		"tab.unfocusedHoverBackground":"#1d1d1f",
 		"tab.unfocusedHoverForeground":"#ffffff",
-
 		"tab.unfocusedActiveBackground":"#1d1d1f",
 		"tab.unfocusedActiveForeground":"#adb5bd",
-
 		"tab.unfocusedInactiveBackground":"#1d1d1f",
 		"tab.unfocusedInactiveForeground":"#adb5bd",
-
 		"tab.unfocusedActiveBorder":"#75757549",
+		"tab.activeBorderTop":"#ffffff",
 
 		// indent guides
 		"editorIndentGuide.activeBackground1": "#75757518",
@@ -104,26 +98,34 @@
 		"editorRuler.foreground":"#75757521",
 
 		// warning and errors
-		"editorWarning.foreground": "#f2cf59",
-		"editorError.foreground": "#ffabab",
-
-		"merge.currentContentBackground": "#bffcc6",
-		"merge.currentHeaderBackground": "#aff8db",
-		"merge.incomingContentBackground": "#ace7ff",
-		"merge.incomingHeaderBackground": "#85e3ff",
+        // "editorWarning.foreground": "#eeff0077",  // Warnings inside the file
+        // "editorError.foreground": "#ff66665b",       // Errors inside the file
+        // "list.warningForeground": "#ffff008c",    // Warnings on the file name
+        // "list.errorForeground": "#ff6666b4",         // Errors on the file name
+		"editorWarning.foreground": "#adb5bd",  // Warnings inside the file
+        "editorError.foreground": "#adb5bd",       // Errors inside the file
+        "list.warningForeground": "#adb5bd",    // Warnings on the file name
+        "list.errorForeground": "#adb5bd",         // Errors on the file name
 
 		// notebooks
 		"notebook.focusedCellBorder": "#ff0000",
 
 		// activity bar
-		"activityBarBadge.background": "#007acc",
-		//"activityBar.background": "#000",
+		"activityBarBadge.background": "#1b212c",
 	
 		// sidebar
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.background": "#151922",
 		"sideBarSectionHeader.background": "#1b212c",
 		"sideBar.border":"#75757549",
+		"sideBar.foreground": "#adb5bd",
+
+		// breadcrumbs
+		"breadcrumb.background":"#151922",
+
+		// sticky scroll
+		"editorStickyScroll.background": "#151922",
+		"editorStickyScroll.border": "#75757549",
 
 		// terminal
 		"terminal.background": "#151922",
@@ -139,7 +141,31 @@
 		"commandCenter.background": "#151922",
 		"editorWidget.background": "#151922",
 		"editorWidget.border": "#75757549",
-		"editorWidget.foreground": "#adb5bd"
+		"editorWidget.foreground": "#adb5bd",
+
+		// title bar
+		"titleBar.activeBackground": "#151922",
+		"titleBar.activeForeground": "#adb5bd",
+		"titleBar.inactiveBackground": "#151922",
+		"titleBar.inactiveForeground": "#adb5bd",
+
+		// git colors (sidebar)
+		// "gitDecoration.modifiedResourceForeground": "#f30808", // sidebar
+		// "gitDecoration.deletedResourceForeground": "#00f6b0",
+		// "gitDecoration.untrackedResourceForeground": "#62ff47",
+		// "gitDecoration.ignoredResourceForeground": "#f2cf59",
+		// "gitDecoration.conflictingResourceForeground": "#f2cf59",
+		// "gitDecoration.submoduleResourceForeground":  "#f2cf59",
+		// "gitDecoration.stageModifiedResourceForeground": "#f30808",
+		// "gitDecoration.stageDeletedResourceForeground": "#00f6b0",
+		"gitDecoration.modifiedResourceForeground": "#adb5bd", // sidebar
+		"gitDecoration.deletedResourceForeground": "#adb5bd",
+		"gitDecoration.untrackedResourceForeground": "#adb5bd",
+		"gitDecoration.ignoredResourceForeground": "#adb5bd",
+		"gitDecoration.conflictingResourceForeground": "#adb5bd",
+		"gitDecoration.submoduleResourceForeground":  "#adb5bd",
+		"gitDecoration.stageModifiedResourceForeground": "#adb5bd",
+		"gitDecoration.stageDeletedResourceForeground": "#adb5bd",
 	},
 	"tokenColors": [
 		{
