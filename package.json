@@ -2,10 +2,10 @@
   "name": "spectral-void",
   "displayName": "Spectral Void",
   "description": "A theme insipired by nordic colors, winter and black metal.",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "publisher": "SpectralVoid",
   "engines": {
-    "vscode": ">=1.91.0"
+    "vscode": ">=1.84.2"
   },
   "icon": "icon.png",
   "repository": {
