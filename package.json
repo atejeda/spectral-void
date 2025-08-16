@@ -2,7 +2,7 @@
   "name": "spectral-void",
   "displayName": "Spectral Void",
   "description": "A theme insipired by nordic colors, winter and black metal.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "SpectralVoid",
   "engines": {
     "vscode": ">=1.84.2"
@@ -34,5 +34,10 @@
         "path": "./themes/spectral-void-2-color-theme.json"
       }
     ]
-  }
+  },
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "web": true
 }
